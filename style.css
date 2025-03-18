@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#NAV {
+    position: sticky;
+            top: 0;
+            background-color: white;
+            padding: 15px;
+            text-align: center;
+            z-index: 1000;
+            border: none;
+
+}
+
+html, body {
+    background-color: white;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.scroll-box {
+        scrollbar-color: rgb(66, 63, 63);
+        scrollbar-width: 5px;
+    }
+    ::-webkit-scrollbar {
+        width: 10px;}
+    
+    ::-webkit-scrollbar-track {
+        background: #706e6e;
+        border-radius: none;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: #dfe4e4                                                                                             ;
+        border-radius: none;
+
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background: #bfc4bf;
+    }
+
+    div #flex-items {
+        align-content: center;
+    }
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.flex-container {
+    border: 2px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.flex-items {
+    /* border: 1px solid #ff0 */
+}
+
+.flex-items:nth-child(1):nth-child(1) {
+    /* border: 1px solid coral; */
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.flex-items:nth-child(1) > div {
+    /* border: 1px solid #eee; */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.flex-item:nth-child(2) {
+    border: 1px solid blue;
+}
+
+.header{
+    background-color: #1A73E8;
+    border-radius: none;
+    padding-left: 25px;
+    height: 70px;
+    padding-top: 26px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: ;
+}
+
+#HERO {
+    width: 50%;
+    
+}
+#HERO h3 {
+    font-size: 64px;
+    font-weight: 700px;
+    line-height: 72px;
+    padding-bottom: 30px;
+}
+
+#HERO p {
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 30px;
+    letter-spacing: normal;
+}
+
+#HERO2 {
+    justify-content: center;
+    padding: 65px 0px;
+}
+
+.section {
+    padding: 20px 330px;
+}
+
+#section {
+    padding: 20px 280px 20px 330px;
+    background-color: #F5F6F7;;
+}
+
+.A {
+    display: flex;
+    background-color: #F5F6F7;
+    justify-content: space-between;
+}
+
+#Bb {
+    padding-right: 10px;
+    border-radius: 20px;
+}
+
+.Aa {
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Aa h3 {
+    padding: 0px 0px 20px 0px;
+    font-weight: 500;
+    font-size: 32px;
+    vertical-align: baseline;
+    line-height: 40px;
+}
+
+#Aa  button{
+    width: 150px;
+    color: #1A73E8;
+    justify-content: center;
+    font-size: 16px;
+    border-radius: 30px;
+    height: 45px;
+    line-height: 20px;
+    border-color: #1A73E8;
+}
+
+#Aa button:hover {
+    background-color: #1A73E8;
+    color: #FFFFFF;
+}
+
+#butt {
+    text-align: center;
+    padding-top: 30px;
+}
+#sections {
+    justify-content: space-between;
+    padding: 40px 280px 40px 330px;
+    flex-wrap: wrap;
+    flex-flow: row;
+}
+
+#pictures3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Yup {
+    background-color: #F5F6F7;
+    border-radius: 20px;
+    height: 680px;
+    width: 400px;
+    justify-content: center;
+    max-width: 100%;
+    padding: 80px 30px;
+}
+
+#Cc {
+    text-align: left;
+    padding: 60px 0px 60px 0px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+
+#Cc :hover {
+    text-decoration: underline;
+}
+
+#Dd {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#buttn {
+    text-align: center;
+    padding: 40px;
+    
+}
+
+#buttn :hover {
+    background-color: #F5F6F7 ;
+}
+
+#Yup button {
+    width: 150px;
+    color: #1A73E8;
+    justify-content: center;
+    font-size: 16px;
+    border-radius: 30px;
+    height: 45px;
+    line-height: 20px;
+    border-color:#1A73E8;
+    background-color: #FFFFFF;
+}
+
+#Food {
+    padding: 40px 280px 40px 330px;
+    background-color: #F5F6F7;
+}
+
+#Learn h3 {
+font-size: 20px;
+line-height: 32px;
+font-weight: 400;
+letter-spacing: -0.2px;
+padding: 20px 0px;
+}
+
+#Learn p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 0px 0px 30px 0px;
+}
+
+#pictures30{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#Ff {
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.Aa a h3:hover{
+    text-decoration: underline;
+}
+
+.gateway {
+    padding: 40px 280px 40px 330px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gateway h3 {
+    font-size: 32px;
+    padding: 0px 0px 20px 5px;
+}
+
+.good {
+    display: flex;
+    justify-content: space-between;
+}
+.poor{
+    display: flex;
+    flex-direction: column;
+}
+
+.poor button{
+    width: 150px;
+    color: #1A73E8;
+    justify-content: center;
+    font-size: 16px;
+    border-radius: 30px;
+    height: 45px;
+    line-height: 20px;
+    border-color: #1A73E8;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+
+}
+
+.fair {
+    font-size: 16px;
+}
+
+.fair h3{
+    font-size: 20px;
+    color: #1A73E8;
+    line-height: 32px;
+}
+
+
