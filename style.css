@@ -64,10 +64,6 @@ a {
     padding: 0px 20px;
 }
 
-.flex-items {
-    /* border: 1px solid #ff0 */
-}
-
 .flex-items:nth-child(1):nth-child(1) {
     /* border: 1px solid coral; */
     display: flex;
@@ -100,7 +96,6 @@ a {
 .hero {
     display: flex;
     justify-content: space-between;
-    box-sizing: ;
 }
 
 #HERO {
